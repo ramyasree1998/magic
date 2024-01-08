@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="index.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <section id="header">
+            <div>
+                <ul id="navbar">
+                    <li><a class="active" href="index.html">Home</li>
+                    <li><a class="active" href="chatbot.html">ChatBot</li>
+
+                </ul>
+            </div>
+                <div id="mobile">
+                    <a href="cart.html"><i class="far fa-shopping-bag"></i></a>
+                    <i id="bar" class="fas fa-outdent"></i> 
+                </div>
+    </section>
+        <div id="sectionHome">
+            <div class="background-container d-flex flex-column justify-content-end">
+                <div class="fashion-card">
+                    <h1>MERCURY ED-TECH platform</h1>
+                    <p>
+                        WELCOME TO MERCURY A FRONT END PLATFORM
+                    </p>
+                    <button class="btn btn-dark" onclick="display('sectionFavouriteplaces')">Get started</button>
+                </div>
+            </div>   
+        </div>
+        <div id="sectionFavouriteplaces">
+            <div class="favouriteplacebg-container">
+                <h1 class="main-heading">FULL STACK DEVLOPMENT</h1>
+                <div class="favouriteplace-card-container d-flex flex-row" onclick="display('sectionTajmahaldetailedview')">
+                    <div>
+                        <h1 class="favoriteplace-card-heading">HTML</h1>
+                        <p>
+                            HTML stands for Hyper Text Markup Language. HTML is the standard markup language for creating Web pages. HTML describes the structure of a Web page. HTML consists of a series of elements. HTML elements tell the browser how to display the content.HTML is a markup language that web browsers use to interpret and compose text, images, and other material into visible or audible web pages
+                        </p>
+                    </div>
+                    <img src="html.png"/>
+                </div>
+                <div class="favouriteplace-card-container d-flex flex-row" onclick="display('sectionKeraladetailedview')">
+                    <div>
+                        <h1 class="favoriteplace-card-heading">CSS</h1>
+                        <p>
+                            CSS is the acronym of “Cascading Style Sheets”. CSS is a computer language for laying out and structuring web pages (HTML or XML). This language contains coding elements and is composed of these “cascading style sheets” which are equally called CSS files 
+                        </p>
+                    </div>
+                    <img src="css.png"/>
+                </div>
+                <div class="favouriteplace-card-container d-flex flex-row" onclick="display('sectionKashmirDetailedView')">
+                    <div>
+                        <h1 class="favoriteplace-card-heading">Javascript</h1>
+                        <p>
+                            What Is JavaScript? JavaScript (JS) is a cross-platform, object-oriented programming language used by developers to make web pages interactive. It allows developers to create dynamically updating content, use animations, pop-up menus, clickable buttons, control multimedia, etc.
+                        </p>
+                    </div>
+                    <img src="javascript.png">
+                </div>
+                <div class="favouriteplace-card-container d-flex flex-row" onclick="display('sectionVaranasiDetailedview')">
+                    <div>
+                        <h1 class="favoriteplace-card-heading">Node js</h1>
+                        <p>
+                            It is used for server-side programming, and primarily deployed for non-blocking, event-driven servers, such as traditional web sites and back-end API services, but was originally designed with real-time, push-based architectures in mind. Every browser has its own version of a JS engine, and node.
+                        </p>
+                    </div>
+                    <img src="nodejs.png">
+                </div>
+                <button class="btn btn-primary" onclick="display('sectionHome')">back</button>
+            </div>
+        </div>
+        <div id="sectionTajmahaldetailedview">
+            <div class="detailedviewbg-container">
+                <h1 class="main-heading">INTRODUCTION TO HTML</h1>
+                <div class="card-container">
+                    <div id="carouselExampleIndicators" class="carousel slide">
+                        <div class="carousel-indicators">
+                          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                        </div>
+                        <div class="carousel-inner">
+                          <div class="carousel-item active">
+                            <img src="html111.png" class="d-block w-100" alt="...">
+                          </div>
+                          <div class="carousel-item ">
+                            <img src="html12.png" class="d-block w-100" alt="...">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="html13.png" class="d-block w-100" alt="...">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="html14.png" class="d-block w-100" alt="...">
+                          </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Next</span>
+                        </button>
+                      </div>
+                      <div class="text-container">
+                        <h1 class="card-heading">HTML</h1>
+                        <p>
+                            The HyperText Markup Language or HTML is the standard markup language for documents designed to be displayed in a web browser. It defines the meaning and structure of web content. It is often assisted by technologies such as Cascading Style Sheets (CSS) and scripting languages such as JavaScript.
+
+                            HTML is a markup language that web browsers use to interpret and compose text, images, and other material into visible or audible web pages. Default characteristics for every item of HTML markup are defined in the browser, and these characteristics can be altered or enhanced by the web page designer's additional use of CSS. Many of the text elements are mentioned in the 1988 ISO technical report TR 9537 Techniques for using SGML, which describes the features of early text formatting languages such as that used by the RUNOFF command developed in the early 1960s for the CTSS (Compatible Time-Sharing System) operating system. These formatting commands were derived from the commands used by typesetters to manually format documents. However, the SGML concept of generalized markup is based on elements (nested annotated ranges with attributes) rather than merely print effects, with separate structure and markup. HTML has been progressively moved in this direction with CSS.
+                            Berners-Lee considered HTML to be an application of SGML. It was formally defined as such by the Internet Engineering Task Force (IETF) with the mid-1993 publication of the first proposal for an HTML specification, the "Hypertext Markup Language (HTML)" Internet Draft by Berners-Lee and Dan Connolly, which included an SGML Document type definition to define the syntax.[9][10] The draft expired after six months, but was notable for its acknowledgment of the NCSA Mosaic browser's custom tag for embedding in-line images, reflecting the IETF's philosophy of basing standards on successful prototypes. Similarly, Dave Raggett's competing Internet Draft, "HTML+ (Hypertext Markup Format)", from late 1993, suggested standardizing already-implemented features like tables and fill-out forms.[11]
+                            Berners-Lee considered HTML to be an application of SGML. It was formally defined as such by the Internet Engineering Task Force (IETF) with the mid-1993 publication of the first proposal for an HTML specification, the "Hypertext Markup Language (HTML)" Internet Draft by Berners-Lee and Dan Connolly, which included an SGML Document type definition to define the syntax.[9][10] The draft expired after six months, but was notable for its acknowledgment of the NCSA Mosaic browser's custom tag for embedding in-line images, reflecting the IETF's philosophy of basing standards on successful prototypes. Similarly, Dave Raggett's competing Internet Draft, "HTML+ (Hypertext Markup Format)", from late 1993, suggested standardizing already-implemented features like tables and fill-out forms.[11]
+                            Berners-Lee considered HTML to be an application of SGML. It was formally defined as such by the Internet Engineering Task Force (IETF) with the mid-1993 publication of the first proposal for an HTML specification, the "Hypertext Markup Language (HTML)" Internet Draft by Berners-Lee and Dan Connolly, which included an SGML Document type definition to define the syntax.[9][10] The draft expired after six months, but was notable for its acknowledgment of the NCSA Mosaic browser's custom tag for embedding in-line images, reflecting the IETF's philosophy of basing standards on successful prototypes. Similarly, Dave Raggett's competing Internet Draft, "HTML+ (Hypertext Markup Format)", from late 1993, suggested standardizing already-implemented features like tables and fill-out forms.[11]
+                            Berners-Lee considered HTML to be an application of SGML. It was formally defined as such by the Internet Engineering Task Force (IETF) with the mid-1993 publication of the first proposal for an HTML specification, the "Hypertext Markup Language (HTML)" Internet Draft by Berners-Lee and Dan Connolly, which included an SGML Document type definition to define the syntax.[9][10] The draft expired after six months, but was notable for its acknowledgment of the NCSA Mosaic browser's custom tag for embedding in-line images, reflecting the IETF's philosophy of basing standards on successful prototypes. Similarly, Dave Raggett's competing Internet Draft, "HTML+ (Hypertext Markup Format)", from late 1993, suggested standardizing already-implemented features like tables and fill-out forms.[11]
+
+                          </p>
+                          <iframe src="https://sendspark.com/share/qj19883stzrpoapd" width="600" height="450" style="border:0;margin-left:300px" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                      </div>
+                </div>
+                <button class="btn btn-primary" onclick="display('sectionFavouriteplaces')">back</button>
+            </div>  
+        </div>
+        <div id="sectionKeraladetailedview">
+            <div class="detailedviewbg-container">
+                <h1 class="main-heading">INTRODUCTION TO CSS</h1>
+                <div class="card-container">
+                    <div id="keralaViewCarousel" class="carousel slide">
+                        <div class="carousel-indicators">
+                          <button type="button" data-bs-target="#keralaViewCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                          <button type="button" data-bs-target="#keralaViewCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                          <button type="button" data-bs-target="#keralaViewCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                          <button type="button" data-bs-target="#keralaViewCarousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                        </div>
+                        <div class="carousel-inner">
+                          <div class="carousel-item active">
+                            <img src="css11.png" class="d-block w-100" alt="...">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="css12.png" class="d-block w-100" alt="...">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="css13.png" class="d-block w-100" alt="...">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="css14.png" class="d-block w-100" alt="...">
+                          </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#keralaViewCarousel" data-bs-slide="prev">
+                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#keralaViewCarousel" data-bs-slide="next">
+                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Next</span>
+                        </button>
+                      </div>
+                      <div class="text-container">
+                        <h1 class="card-heading">CSS</h1>
+                        <p>
+                            HTML ands and lowlands to the west. There are a few east flowing rivers also, which are the tributaries of the Cauvery. The length of most of the rivers is extremely limited and they are monsoon-fed. Some of the rivers are Bharatapuzha, Chalakkudy, Peechi, Malampuzha, Gayatri, Walayar, Vazhani, Neyyar, Periyar, Mangalam and Cheerakuzhy.The backwaters form a specially attractive and economically valuable feature of Kerala. They include lakes and ocean inlets which stretch irregularly along the coast. The biggest backwater is the Veembandh lake. The state has a long coastline is about 550 km long. The state enjoys an equable climate with high temperatures almost throughout the year. There is participation of both monsoon southwest and northeast. The highland area receives more rainfall than other parts of the state. <br>
+                            Cascading Style Sheets (CSS) is a style sheet language used for describing the presentation of a document written in a markup language such as HTML or XML (including XML dialects such as SVG, MathML or XHTML).[1] CSS is a cornerstone technology of the World Wide Web, alongside HTML and JavaScript.[2]
+                            CSS is designed to enable the separation of content and presentation, including layout, colors, and fonts.[3] This separation can improve content accessibility; provide more flexibility and control in the specification of presentation characteristics; enable multiple web pages to share formatting by specifying the relevant CSS in a separate .css file, which reduces complexity and repetition in the structural content; and enable the .css file to be cached to improve the page load speed between the pages that share the file and its formatting
+                            CSS is designed to enable the separation of content and presentation, including layout, colors, and fonts.[3] This separation can improve content accessibility; provide more flexibility and control in the specification of presentation characteristics; enable multiple web pages to share formatting by specifying the relevant CSS in a separate .css file, which reduces complexity and repetition in the structural content; and enable the .css file to be cached to improve the page load speed between the pages that share the file and its formatting
+                            CSS is designed to enable the separation of content and presentation, including layout, colors, and fonts.[3] This separation can improve content accessibility; provide more flexibility and control in the specification of presentation characteristics; enable multiple web pages to share formatting by specifying the relevant CSS in a separate .css file, which reduces complexity and repetition in the structural content; and enable the .css file to be cached to improve the page load speed between the pages that share the file and its formatting
+                            CSS is designed to enable the separation of content and presentation, including layout, colors, and fonts.[3] This separation can improve content accessibility; provide more flexibility and control in the specification of presentation characteristics; enable multiple web pages to share formatting by specifying the relevant CSS in a separate .css file, which reduces complexity and repetition in the structural content; and enable the .css file to be cached to improve the page load speed between the pages that share the file and its formatting
+                            CSS is designed to enable the separation of content and presentation, including layout, colors, and fonts.[3] This separation can improve content accessibility; provide more flexibility and control in the specification of presentation characteristics; enable multiple web pages to share formatting by specifying the relevant CSS in a separate .css file, which reduces complexity and repetition in the structural content; and enable the .css file to be cached to improve the page load speed between the pages that share the file and its formatting
+                            CSS is designed to enable the separation of content and presentation, including layout, colors, and fonts.[3] This separation can improve content accessibility; provide more flexibility and control in the specification of presentation characteristics; enable multiple web pages to share formatting by specifying the relevant CSS in a separate .css file, which reduces complexity and repetition in the structural content; and enable the .css file to be cached to improve the page load speed between the pages that share the file and its formatting
+                            CSS is designed to enable the separation of content and presentation, including layout, colors, and fonts.[3] This separation can improve content accessibility; provide more flexibility and control in the specification of presentation characteristics; enable multiple web pages to share formatting by specifying the relevant CSS in a separate .css file, which reduces complexity and repetition in the structural content; and enable the .css file to be cached to improve the page load speed between the pages that share the file and its formatting
+                            CSS is designed to enable the separation of content and presentation, including layout, colors, and fonts.[3] This separation can improve content accessibility; provide more flexibility and control in the specification of presentation characteristics; enable multiple web pages to share formatting by specifying the relevant CSS in a separate .css file, which reduces complexity and repetition in the structural content; and enable the .css file to be cached to improve the page load speed between the pages that share the file and its formatting
+
+                          
+                        </p>
+                        <iframe src="https://sendspark.com/share/r6wntm4azzzcribs" width="600" height="450" style="border:0;margin-left:300px" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                      </div>
+                </div>
+                <button class="btn btn-primary" onclick="display('sectionFavouriteplaces')">back</button>
+            </div> 
+        </div>
+        <div id="sectionKashmirDetailedView">
+            <div class="detailedviewbg-container">
+                <h1 class="main-heading">INTRODUCTION TO JAVASCRIPT</h1>
+                <div class="card-container">
+                    <div id="kashmirViewcarousel" class="carousel slide">
+                        <div class="carousel-indicators">
+                          <button type="button" data-bs-target="#kashmirViewcarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                          <button type="button" data-bs-target="#kashmirViewcarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                          <button type="button" data-bs-target="#kashmirViewcarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                          <button type="button" data-bs-target="#kashmirViewcarousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                        </div>
+                        <div class="carousel-inner">
+                          <div class="carousel-item active">
+                            <img src="javascript1.png" class="d-block w-100" alt="...">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="javascript2.png" class="d-block w-100" alt="...">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="javascript6.png" class="d-block w-100" alt="...">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="javascript3.png" class="d-block w-100" alt="...">
+                          </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#kashmirViewcarousel" data-bs-slide="prev">
+                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#kashmirViewcarousel" data-bs-slide="next">
+                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Next</span>
+                        </button>
+                      </div>
+                      <div class="text-container">
+                        <h1 class="card-heading">JAVASCRIPT</h1>
+                        <p>
+                            Certainly! JavaScript is a versatile and widely-used programming language that plays a crucial role in web development. Here's a detailed explanation covering various aspects of JavaScript:
+                            1. Introduction:Purpose: JavaScript is primarily a client-side scripting language that enables developers to make web pages interactive and dynamic. It is widely used for building modern web applications.
+                            Client-Side Execution: JavaScript code is executed on the client's browser, allowing developers to manipulate the Document Object Model (DOM) and respond to user interactions.
+                            2. Core Features:Dynamic Typing: JavaScript is a dynamically typed language, meaning variables are not explicitly declared with a type. They can dynamically change their type at runtime.Prototypal Inheritance: JavaScript uses a prototype-based inheritance model where objects can inherit properties and methods directly from other objects.First-class Functions: Functions in JavaScript are first-class citizens, meaning they can be assigned to variables, passed as arguments to other functions, and returned as values from other functions.
+                            3. Syntax:C-Style Syntax: JavaScript's syntax is similar to languages like C and Java, making it familiar to developers with a background in these languages.Case Sensitivity: JavaScript is case-sensitive, meaning variables, functions, and other identifiers must be consistently written with the correct capitalization.
+                            4. Data Types:Primitive Types: JavaScript has several primitive data types, including numbers, strings, booleans, null, and undefined.Objects: JavaScript is object-oriented, and objects play a central role. Objects can be created using literal notation or constructors.Arrays: Arrays in JavaScript are dynamic and can hold elements of different data types.
+                            5. Functions:Function Declaration and Expression: Functions can be declared using the function keyword or created as expressions. Functions can be anonymous, or they can have names.Arrow Functions: Introduced in ECMAScript 6 (ES6), arrow functions provide a more concise syntax for writing functions.Closures: JavaScript supports closures, allowing functions to access variables from their containing scope even after that scope has finished executing.
+                            6. DOM Manipulation:Document Object Model (DOM): JavaScript interacts with the DOM, a programming interface that represents the structure of a document as a tree of objects. This allows developers to manipulate HTML and CSS dynamically.Event Handling: JavaScript enables the handling of user interactions, such as clicks, keypresses, and form submissions, through event listeners.
+                            7. Asynchronous Programming:Callbacks: Asynchronous operations in JavaScript often use callbacks to handle tasks like reading files, making HTTP requests, or handling user input.Promises and Async/Await: Modern JavaScript (ES6 and later) introduces Promises and the Async/Await syntax, providing more readable and maintainable ways to work with asynchronous code.
+                            8. Modules:ES6 Modules: JavaScript supports modular programming through ES6 modules, allowing developers to organize code into reusable and maintainable units
+                            9. Tools and Libraries:Package Managers: npm (Node Package Manager) is widely used for managing JavaScript packages and dependencies.Frameworks and Libraries: Popular frameworks/libraries include React.js (for building user interfaces), Angular (a full-fledged MVC framework), and Vue.js (a progressive JavaScript framework).
+                            10. Server-Side JavaScript:Node.js: JavaScript is not limited to client-side development. With Node.js, JavaScript can be used on the server side, allowing developers to build scalable and high-performance server applications.
+                            11. Cross-Browser Compatibility:Browser Support: JavaScript is supported by all major web browsers, making it a crucial component of web development.
+                            12. ECMAScript Standards:Standardization: JavaScript follows the ECMAScript standard, with updates and new features introduced regularly. ES6, ES7, ES8, and subsequent versions bring significant improvements and additions to the language.JavaScript's versatility, coupled with its continuous evolution through ECMAScript standards, has made it an essential language for web development and an increasingly popular choice for server-side development as well. Its wide adoption and active community contribute to its ongoing relevance and development.
+                        </p>
+                        <iframe src="https://sendspark.com/share/7svyy1yvtfkxd1sh" width="600" height="450" style="border:0;margin-left:300px" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                      </div>
+                </div>
+                <button class="btn btn-primary" onclick="display('sectionFavouriteplaces')">back</button>
+            </div> 
+        </div>
+        <div id="sectionVaranasiDetailedview">
+            <div class="detailedviewbg-container">
+                <h1 class="main-heading">INTRODUCTION TO NODEJS</h1>
+                <div class="card-container">
+                    <div id="varanasiViewCarousel" class="carousel slide">
+                        <div class="carousel-indicators">
+                          <button type="button" data-bs-target="#varanasiViewCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                          <button type="button" data-bs-target="#varanasiViewCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                          <button type="button" data-bs-target="#varanasiViewCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                          <button type="button" data-bs-target="#varanasiViewCarousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                        </div>
+                        <div class="carousel-inner">
+                          <div class="carousel-item active">
+                            <img src="node1.png" class="d-block w-100" alt="...">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="node2.png" class="d-block w-100" alt="...">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="node3.png" class="d-block w-100" alt="...">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="node4.png" class="d-block w-100" alt="...">
+                          </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#varanasiViewCarousel" data-bs-slide="prev">
+                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#varanasiViewCarousel" data-bs-slide="next">
+                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Next</span>
+                        </button>
+                      </div>
+                      <div class="text-container">
+                        <h1 class="card-heading">NODE JS</h1>
+                        <p>
+                            Node.js is an open-source, cross-platform JavaScript runtime environment that executes JavaScript code outside of a web browser. It allows developers to use JavaScript to write server-side code, enabling the development of scalable and high-performance network applications. Here are some key aspects of Node.js:
+                            JavaScript Runtime: Node.js is built on the V8 JavaScript runtime engine, which is the same engine that powers Google Chrome. It provides a runtime environment for executing JavaScript code on the server side.
+                            Event-Driven and Non-Blocking I/O: One of the distinctive features of Node.js is its event-driven, non-blocking I/O model. This means that the server can handle a large number of simultaneous connections without waiting for one operation to complete before moving on to the next. This makes Node.js well-suited for building real-time applications and handling a large number of concurrent connections.
+                            Single-Threaded, Asynchronous Architecture: Node.js uses a single-threaded event loop to handle multiple concurrent connections. While the core JavaScript execution is single-threaded, Node.js employs asynchronous I/O operations, allowing it to efficiently manage many connections simultaneously without creating separate threads for each.
+                            Package Management with npm: Node.js comes with a package manager called npm (Node Package Manager). It is a vast repository of open-source libraries and tools that developers can use in their Node.js applications. npm simplifies the process of installing, updating, and managing third-party packages.
+                            Modules: Node.js uses a module system to organize code into reusable pieces. Modules can be built-in or external, and they help in keeping the codebase modular and maintainable. CommonJS is the module specification used in Node.js.
+                            Server-Side Development: Node.js is often used for building server-side applications, such as web servers, APIs (Application Programming Interfaces), and other networked software. It is particularly well-suited for handling real-time communication and building scalable, data-intensive applications.
+                            Cross-Platform: Node.js is designed to run on various operating systems, including Windows, macOS, and Linux. This cross-platform compatibility makes it easy for developers to create applications that can run on different environments without modification.
+                            Active Community: Node.js has a large and active community of developers contributing to its ecosystem. This vibrant community ensures continuous improvement, updates, and the availability of a wide range of modules and tools.
+                            1. Express.js:Web Framework: Express.js is a popular web application framework for Node.js. It simplifies the process of building robust and scalable web applications by providing a set of features and tools.
+                            Routing: Express helps in defining routes for handling HTTP requests, making it easy to manage different parts of your application.
+                            2. npm (Node Package Manager):
+                            Package Management: npm is the default package manager for Node.js, and it allows developers to easily install, manage, and share libraries and tools. It is one of the largest package ecosystems in the world.
+                            Asynchronous Programming:Callback Pattern: Node.js uses callbacks to handle asynchronous operations. Callbacks are functions that are executed when a task is completed, ensuring non-blocking behavior.
+                            Promises and Async/Await: With the introduction of Promises and Async/Await in recent versions of JavaScript, handling asynchronous code in a more readable and maintainable way has become easier.
+                            4. Scalability:Horizontal Scaling: Node.js applications can be easily scaled horizontally by adding more nodes to a network, making it suitable for building scalable and distributed systems.
+
+                            5. WebSocket Support:Real-time Communication: Node.js is well-suited for real-time applications and WebSocket communication. Libraries like Socket.io provide an easy way to implement bidirectional communication between clients and servers.
+                            6. Middleware:Customizable Processing Pipeline: Middleware functions in Express.js allow you to execute code during the request-response cycle. This is powerful for tasks like authentication, logging, and data parsing.
+                            7. Databases:Database Connectivity: Node.js has a variety of libraries and drivers for connecting to different databases, both SQL and NoSQL. Popular choices include MongoDB, MySQL, PostgreSQL, and Redis
+                            Security Best Practices: Node.js has a robust security mechanism. However, developers need to follow best practices to ensure the security of their applications, including input validation, proper session management, and protection against common vulnerabilities.
+                            9. Debugging and Development Tools:Debugger: Node.js comes with a built-in debugger that allows developers to inspect variables, set breakpoints, and step through code.
+                            Development Tools: Various tools, such as Nodemon and pm2, facilitate development by automatically restarting the server when changes are detected or managing processes in production environments.
+                            10. Community and Support:
+                            Active Community: Node.js has a large and active community that contributes to forums, blogs, and open-source projects. This community support is valuable for developers seeking help or looking for best practices.Node.js is a versatile technology that is continually evolving, and its usage extends beyond web servers to areas like microservices architecture, serverless computing, and the Internet of Things (IoT). Its flexibility and performance make it a popular choice for a wide range of applications.
+                     </p>
+                     <iframe src="https://sendspark.com/share/tb2zcwz0tzw3q7qj" width="600" height="450" style="border:0;margin-left:300px" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                      </div>
+                </div>
+                <button class="btn btn-primary" onclick="display('sectionFavouriteplaces')">back</button>
+            </div> 
+        </div>
+        <script type="text/javascript" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/js/ccbp-ui-kit.js"></script>
+    </body>
+</html>
